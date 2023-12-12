@@ -1,4 +1,4 @@
-# Discord Debian Updater
+# DPKG Discord Updater
 Simple Bash script that automates discord dkpg installation/update to Discord
 
 ### Usage
@@ -11,3 +11,6 @@ If you need to define a working directory due to permission issue, add `-d` to t
 ```
 sudo bash ./discord_updater.sh -d ~/Downloads/
 ```
+
+### Extra
+You can place it in `/usr/bin` to call it directly anywhere from any tty
